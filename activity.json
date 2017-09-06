@@ -1,0 +1,23 @@
+{
+  "name": "HelloWorld",
+  "version": "0.0.1",
+  "type": "flogo:Hello World",
+  "description": "This activity is a sample flogo activity for understanding purpose",
+  "author": "AKS <iaks01@iflow.org>",
+  "inputs":[
+    {
+      "name": "salutation",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "result",
+      "type": "string"
+    }
+  ]
+}
